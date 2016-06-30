@@ -1,0 +1,7 @@
+#+TITLE: e2h
+
+A little tool to render epoch time from your log files to something readable.
+
+'e2h' read from /stdin/ and write to /stdout/ so, use pipes !
+
+date +%s | e2h
